@@ -1,0 +1,61 @@
+#mapArea
+{
+	border: 1px black solid;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 600px;
+	width: 800px;
+}
+
+#hexMap
+{
+	position: absolute;
+	margin-top: -60px;
+/*
+*	Margin Top, Margin Left will calculate off of total hexMap Height, Width.
+*/
+	margin-left: -30px;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	text-align: center;
+}
+
+div .hex {
+	background-image: url('images/blankHex.svg');
+	background-repeat:no-repeat;
+	width: 120px;
+	height: 104px;
+	overflow: hidden;
+/*
+*	120 width, 104 height, 30 degrees 
+*/
+}
+
+div .hex:hover {
+	background-image: url('images/blankHex_highlight.svg');
+/*
+*	120 width, 104 height, 30 degrees 
+*/
+}
+
+
+
+#hexDescription
+{
+	border: 1px black solid;
+	position: absolute;
+	left: 801px;
+	top: 0px;
+	display: block;
+	height: 600px;
+	width: 200px;
+}
+
+#hexSubmit
+{
+	position: absolute;
+	left: 867px;
+	top: 566px;
+}
